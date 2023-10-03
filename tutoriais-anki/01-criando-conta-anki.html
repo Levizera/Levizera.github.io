@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Levizera</title>
     <link rel="stylesheet" href="../styles-posts.css">
+    
+<style>
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+  }
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+    
+    
+    
 </head>
 <body>
 	<header>
@@ -13,7 +32,9 @@
 
 	</header>
 	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/N2--dJ9ap_c?si=hJWuIy9tySBFnWoF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<div class="iframe-container">
+ 	<iframe src="https://www.youtube.com/embed/N2--dJ9ap_c?si=hJWuIy9tySBFnWoF" frameborder="0" allowfullscreen></iframe>
+	</div>
 
 	<p>Neste tutorial eu te ensino a como criar uma conta no Anki e adicioná-la no aplicativo versão <em>desktop</em>. A conta no Anki é o primeiro passo para começar a utilizar o aplicativo da maneira correta, pois com ela é possível ter todo o seu progresso salvo e sincronizado em todos os seus dispositivos. </p>
 	
