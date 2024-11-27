@@ -25,12 +25,12 @@ header {
 
 /* Estilos para a lista de posts */
 main ul {
-    list-style: square;
-    padding: 0;
+	list-style: square;
+	padding: 0;
 }
 
 main ul li {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 /* Estilos para o rodapé */
